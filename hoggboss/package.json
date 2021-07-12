@@ -1,0 +1,23 @@
+{
+  "name": "hoggboss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --watchAll",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "27.0.6",
+    "jest": "27.0.6",
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "express": "4.17.1"
+  }
+}
